@@ -1,0 +1,188 @@
+* {
+	margin:0;
+	padding:0;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fafafa;
+	font-weight:bold;
+	border-bottom:1px solid white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fafafa;
+}
+section#menu{
+	border-bottom:1px solid #fff;
+}
+
+section#header {
+	padding-bottom:60px;
+	padding-top:60px;
+}
+
+section#header-bg {
+	height:650px;
+    background-image: url("background.jpg");
+    background-repeat: repeat-x; 
+    background-size: cover;
+}
+h1{
+    font-size: 4.0rem;
+	color:white;
+}
+h4{
+    font-size: 2.0rem;
+	color:white;
+}
+#wel-text h4 {
+    transform: rotate(269deg);
+    margin-top: 187px;
+    text-transform: uppercase;
+    margin-left: 120px;
+    width: 230px;
+}
+a.mybtn{
+	background: transparent;
+	border-color: #fff;
+	border-radius: 0px;
+	padding: 10px 20px;
+}
+section#second-p {
+	padding-top:60px;
+	padding-bottom:60px;
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shadow{
+	min-height: 120px;
+	background: #fff;
+
+}
+#shadow .container{
+	position: relative;
+}
+section#second-img {
+    padding-top: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 1px 10px 1px #9C9C9C;
+    box-shadow: 1px 1px 10px 1px #9C9C9C;
+    position: absolute;
+    top: -20px;
+    left: 200px;
+    width: 71%;
+}
+section#our-work1{
+	padding-top:60px;
+	padding-bottom:60px;
+background: #fafafa;
+}
+section#our-work2{
+	padding-top:40px;
+	padding-bottom:40px;
+background: #fafafa;
+}
+.address{
+	background-color:#212121;
+}
+h3{
+	color:white;
+}
+section#address{
+	padding-top:40px;
+	padding-left:30px;
+	padding-bottom:10px;
+	color:white;
+	height:420px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb8666+0,feb566+100 */
+background: #fb8666; /* Old browsers */
+background: -moz-linear-gradient(left, #fb8666 0%, #feb566 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fb8666 0%,#feb566 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fb8666 0%,#feb566 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb8666', endColorstr='#feb566',GradientType=1 ); /* IE6-9 */	
+}
+form#contact-form{
+	padding-top:40px;
+	padding-left:10px;
+	padding-bottom:10px;
+	height:40px;
+	
+}
+section#footer{
+	background-color:#212121;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+p.copyright{
+	color:white;
+}
+#contact-us input[type="text"]{
+	border-radius: 0px;
+	border-color: #fb8666;
+}
+#contact-us input[type="email"]{
+	border-radius: 0px;
+	border-color: #fb8666;
+}
+#contact-us textarea{
+	border-radius: 0px;
+	border-color: #fb8666;
+}
+#contact-us input[type="submit"]{
+	border-radius: 0px;
+	border-color: #fb8666;
+	background: transparent;
+	color: #333;
+}
+p.about-us{
+	color:black;
+	margin-bottom:40px;
+	font-size:30px;
+}
+p.about-us span{
+	font-weight:bold;
+	border:1px solid #fb8666;
+	padding:5px 10px;
+}
+p.our-business{
+	color:black;
+	margin-bottom:40px;
+	font-size:30px;
+	text-align:center;
+}
+p.our-business span{
+	font-weight:bold;
+	border:1px solid #fb8666;
+	padding:5px 10px;
+}
+{
+	text-align:center;
+}
+p.work{
+	font-size:30px;
+	font-weight:bold;
+}
+.navbar-center{
+	text-align:center;
+}
